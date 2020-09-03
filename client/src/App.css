@@ -1,0 +1,329 @@
+body {
+    background-color: #fbf8f8;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .frontPage {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .header {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .IncomeExpense h4 {
+    background-color: #dee0de;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .IncomeExpense {
+    display: flex;
+    justify-content: center;
+  }
+
+  .line {
+    margin-top: 20px;
+    border-bottom: 3px dotted rgb(64, 64, 65);
+  }
+
+
+  .saving, .chequing {
+    font-size: 20px;
+    padding: 15px;
+    background-image: linear-gradient(#fbf8f8, #dee0de);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+
+  }
+
+  .accountHeader {
+    font-size: 22px;
+  }
+
+  .addTransaction{
+    border: 3px ridge lightgray;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 10px;
+  }
+
+  .addTransaction h4{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  
+
+  .addTransaction label {
+    font-size: 18px;
+
+  }
+
+  .addTransaction form div {
+    margin-bottom: 15px;
+  }
+
+  .addTransaction form input {
+    padding : 8px;
+    display: block;
+    width: 155px;
+    box-sizing: border-box;
+    
+  }
+
+  .addTransaction select, .transfers select {
+    display:block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 155px;
+  }
+  
+
+
+  .navLinks {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    background-image: radial-gradient(#2f2f2f, white);
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: #2d2f3171 2px 3px;
+    
+    
+  }
+
+  .navItem {
+    text-decoration: none;
+    color: white;
+  } 
+
+  .navItem:hover {
+    color: black;
+  }
+
+  .savingLink, .chequingLink{
+    color: black;
+    text-decoration: none;
+  }
+
+  .savingLink:hover, .chequingLink:hover{
+    color:white;
+  }
+
+
+
+  .transfers{
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  .transfers h4{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+
+  .internalTransfer, .externalTransfer{
+    border: 3px ridge lightgray;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0 auto;
+
+  }
+
+  .transfers label {
+    display:block;
+  }
+
+  .transfers div {
+    margin-bottom: 10px;
+  }
+
+
+  .transfers input[type="number"], .transfers input[type="text"] {
+    padding: 8px;
+    width: 155px;
+    box-sizing: border-box;
+  }
+
+  .savingTransactions h4, .chequingTransactions h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+
+  }
+
+
+
+  .savingTransactions, .chequingTransactions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .savingTransactions p, .chequingTransactions p{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    
+    
+  }
+
+  button {
+    width: 155px;
+    box-sizing: border-box;
+    padding: 6px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background: #fbf8f8;
+    color:black;
+  }
+
+  .custom-ui button {
+    width: 130px;
+  }
+
+  .custom-ui {
+    text-align: center;
+  }
+
+  .savingTransactions button, .chequingTransactions button {
+    width: 30px;
+    padding: 3px;
+    margin: 0px;
+    opacity: 0;
+  }
+
+   .savingTransactions button:hover, .chequingTransactions button:hover {
+    opacity: 1;
+    background-color: red;
+    padding: 3px;
+    border-color: red;
+    color: white;
+  }
+
+  .transactionAmount {
+    margin-right: 2px;
+  }
+
+  .date {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: outset;
+  
+  } 
+
+  .transactionText {
+    max-width: 70%;
+  }
+
+  .auto label {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    display: inline;
+  }
+
+@media(max-width: 1200px) {
+
+  .IncomeExpense .IEnum {
+    display: block;
+  }
+
+
+}
+
+@media(max-width: 850px) {
+ 
+  .IncomeExpense .IEtext {
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+
+  
+}
+
+@media(max-width: 650px) {
+  
+
+  .IncomeExpense h4 {
+    margin: 0;
+  }
+
+  .IncomeExpense {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .saving, .chequing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+
+  .accountHeader {
+    text-align: center;
+  }
+
+  .addTransaction, .transfers {
+    width: 400px;
+  }
+
+}
+
+
+@media(max-width: 470px) {
+ 
+
+  .saving .title, .chequing .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .addTransaction, .transfers {
+    width: 300px;
+  }
+}
+
+
