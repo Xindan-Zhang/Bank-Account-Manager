@@ -1,5 +1,5 @@
 # Online Banking Website
-This bank account manager website uses RESTful API design and is built with React.js as frontend, Node.js and Express.js as backend, and MongoDB as database.  
+This online banking website uses RESTful API design and is built with React.js as frontend, Node.js and Express.js as backend, and MongoDB as database.  
 The website has both chequing and saving accounts and includes the following functionalities:
 * View saving and chequing transactions in reverse chronological order
 * Add and delete transactions
