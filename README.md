@@ -1,9 +1,9 @@
-# Bank Account Manager
+# Online Banking Website
 This bank account manager website uses RESTful API design and is built with React.js as frontend, Node.js and Express.js as backend, and MongoDB as database.  
 The website has both chequing and saving accounts and includes the following functionalities:
 * View saving and chequing transactions in reverse chronological order
 * Add and delete transactions
-* Make internal transfers (transfers made between accounts), external transfers (transfers made to other people), and auto transfer (transfers that are pre-scheduled). Note that the system uses Eastern Daylight Time
+* Make internal transfers (transfers made between accounts), external transfers (transfers made to other people), and auto transfers (transfers that are pre-scheduled). Note that the system uses Eastern Daylight Time
 
 
 ## Website Screenshots
