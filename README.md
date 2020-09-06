@@ -3,13 +3,13 @@ This bank account manager website uses RESTful API design and is built with Reac
 The website has both chequing and saving accounts and includes the following functionalities:
 * View saving and chequing transactions in reverse chronological order
 * Add and delete transactions
-* Make internal transfers (transfers made between accounts), external transfers (transfers made to other people), and auto transfer (transfers that are pre-scheduled)
+* Make internal transfers (transfers made between accounts), external transfers (transfers made to other people), and auto transfer (transfers that are pre-scheduled). Note that the system uses Eastern Daylight Time
 
 
 ## Website Screenshots
 Front Page   
 <img src="https://user-images.githubusercontent.com/53383156/92292120-6e569e00-eed0-11ea-8b77-130063fc2aa4.png" width="700" />  
-Saving Transaction Page   
+Chequing Transaction Page   
 <img src="https://user-images.githubusercontent.com/53383156/92292252-094f7800-eed1-11ea-9b62-fb04db01efc4.png" width="700" />    
 Add Transaction Page   
 <img src="https://user-images.githubusercontent.com/53383156/92292203-d311f880-eed0-11ea-961a-8c2884d882b8.png" width="700" />     
